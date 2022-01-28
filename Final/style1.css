@@ -1,0 +1,106 @@
+     
+header{                           /*to allign the imag and my name */
+    background-color: #E0C1B3;         
+    display: flex;  
+}
+
+
+
+header img{                       /* image mai margin ke liye*/
+    margin-right: 1rem;              
+         }
+
+
+
+.container{                       /*header content*/
+    color: #8d1426;
+    font-family:'Times New Roman', Times, serif;           
+    font-weight: bold;
+    display: center;  
+
+}
+
+
+
+    .heading{                    /*  heading  */
+    height: 3rem;
+    color:#8d1426 ;
+    background-color:#E0C1B3;
+    font-size: 1.5rem;
+           }
+
+
+           
+
+section{                         /*colourfull bar*/
+
+    display: flex;   
+}
+
+
+
+
+.eduHead{                        /*education section (sub headings)*/
+         
+      font-size: 2rem;
+      color: brown;
+}
+
+
+
+
+.skillName{text-align: center;   /*SKILLS section( to make the text allign in center of the image*/
+    
+}
+
+
+.a{                              /*to arrange  all the logo side by side*/
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+ .alsoFamilier{                  /* skills familier with and currently working (spacing btw icons) */ 
+
+    display: flex;
+    margin-right: 55rem;
+    justify-content: space-between;
+    
+
+}
+
+
+
+.content{                        /* to make the number and mail allign with symbols*/
+    position: relative;              
+    top :0.5rem;
+    margin-right: 1rem;
+    
+}
+
+
+
+.skillSub{                       /* skills section sun heading*/
+    background-color: #E0C1B3;
+}
+
+
+
+footer{                          /*----------footer----------*/
+    
+    margin-top: 2rem;
+    background-color:#E0C1B3 ;
+    color:black;
+    display: flex;
+    justify-content: center;
+    height: 2rem;
+    font-size: 0.5rem;
+    align-items: center;
+    
+    
+}
+
+
+
